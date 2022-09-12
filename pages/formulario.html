@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <style>
+body{
+    background-image: linear-gradient(45deg, #8fb9aa, #90dee7);
+}
+#tabela{
+     color: rgb(26, 19, 19);
+}
+    </style>
+</head>
+<body> 
+    <h1 align="center">Accessory <span style="color:#120a8f ">Bear</span></h1>
+    <img src="../img/zyro-image.png" width="180px"  ><br>
+    <fieldset id="tabela">
+        <form method="post" action="cadastro.php">
+            <p>
+              <label for="username">*Nome:</label><br>
+                 <input type="name" name="name" placeholder="Nome completo">
+            </p>
+            <p>     
+                <label for="fone">Celular:</label><br>
+                   <input type="tel" name="fone" placeholder="(00) 0000-0000">
+              </p>
+            <p>     
+              <label for="email">|*E-mail:</label><br>
+                 <input type="email" name="email" placeholder="Insira seu E-mail">
+            </p>
+              <label for="password">*Senha:</label><br>
+                 <input type="password" name="psd" placeholder="Digite sua senha atual">
+                 <br>
+                 <label for="password">*Confirmar senha:</label><br>
+                 <input type="password" name="psd" placeholder="Confirme sua senha">
+                 <br>
+              <label for="foto"> Foto:</label><br>
+                 <input type="file" id="foto" name="foto"> 
+            <p>
+                <input type="submit" value="cadastrar"> 
+                <input type="reset" value="cancelar"> 
+            </p> 
+            </form>      
+    </fieldset>
+ 
+</body>
+</html>
